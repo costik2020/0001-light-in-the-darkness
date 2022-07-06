@@ -1,0 +1,22 @@
+
+body {
+	background-color: black;
+}
+
+
+.matrix {
+	border: thick solid #32a1ce;
+	/*Make sure that the matrix stays at a certin size:*/
+	height: 750px;
+	width: 750px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.box {
+	border: thick solid red;
+	height: 100px;
+	width: 100px;
+}
