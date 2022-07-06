@@ -21,19 +21,25 @@ console.log("box=",boxesArray);
 // Add the code that detexts when the mouse cursor is over
 // First I need to interate over all the boxes from `boxesArray`
 //box.addEventListener("mouseover", changeColor);
+//boxesArray[0].style.transition="backgroundColor 2s;"
 
 for (let box of boxesArray){
 	//DEBUG console.log(box);
 	//box.addEventListener("mouseover", changeColor, eventObj.target);
-	box.addEventListener("mouseover", changeColor);
+
+	box.addEventListener("mouseover", function(){
+		console.log("box=",box);
+		box.style.backgroundColor="white";
+	});
+
+	box.addEventListener("mouseout", function(){
+		console.log("foo");
+		box.style.backgroundColor="black";
+		box.style.transition="backgroundColor 1.5s;"
+	});
 }
 
-// Define the changeColor() function
-function changeColor(box){
-	//console.log("test");
-	console.log(box);
-	//box.style.backgroundColor="white";
-}
+
 
 
 

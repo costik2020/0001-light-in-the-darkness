@@ -16,7 +16,10 @@ body {
 }
 
 .box {
-	border: thick solid red;
+	border: thick solid black;
 	height: 100px;
 	width: 100px;
+
+	/*Make the boxes have a slowed down transition*/
+	transition: background-color 1.5s;
 }
