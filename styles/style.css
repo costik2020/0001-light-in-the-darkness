@@ -4,7 +4,10 @@ body {
 }
 
 h1 {
+	/*Try to go after neon 60s vibe shop signs..*/
+	font-family: cursive,serif,monospace;
 	color: #ff33cc;
+	font-size: 3em;
 }
 
 .matrix {
@@ -25,8 +28,8 @@ h1 {
 	width: 100px;
 
 	/*Make the boxes have a slowed down transition*/
-	transition: background-color 1.5s;
-	/*transition: box-shadow 1.5s;*/
+	transition: background-color 1.5s, box-shadow 1.5s;
+
 }
 
 
@@ -45,20 +48,6 @@ h1 {
 }
 
 /*Adding border shadow..*/
-.neonBorder99 {
-  color: #ff33cc;
-  box-shadow:
-    0 0 7px #ff33cc,
-    0 0 10px #ff33cc,
-    0 0 21px #ff33cc,
-    0 0 42px #ff33cc,
-    0 0 82px #ff33cc,
-    0 0 92px #ff33cc,
-    0 0 102px #ff33cc,
-    0 0 151px #ff33cc;
-}
-
-
 /*Make each box lighing up:*/
 
 .boxLight {
@@ -75,3 +64,12 @@ h1 {
 }
 
 
+
+
+/*Put my little mattrix in the middle of the browser viewport*/
+.main {
+	display: flex;
+	flex-direction: column;
+	/*testing flexbox...border: thick solid blue;*/
+	align-items: center;
+}
