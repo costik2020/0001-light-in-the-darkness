@@ -3,12 +3,16 @@ body {
 	background-color: black;
 }
 
+h1 {
+	color: #ff33cc;
+}
 
 .matrix {
-	border: thick solid #32a1ce;
+	border: thick solid #ff33cc;
 	/*Make sure that the matrix stays at a certin size:*/
 	height: 750px;
 	width: 750px;
+
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-around;
@@ -23,3 +27,53 @@ body {
 	/*Make the boxes have a slowed down transition*/
 	transition: background-color 1.5s;
 }
+
+
+/*Appling non effect to text*/
+.neonText {
+  color: #ff33cc;
+  text-shadow:
+    0 0 7px #ff33cc,
+    0 0 10px #ff33cc,
+    0 0 21px #ff33cc,
+    0 0 42px #ff33cc,
+    0 0 82px #ff33cc,
+    0 0 92px #ff33cc,
+    0 0 102px #ff33cc,
+    0 0 151px #ff33cc;
+}
+
+/*Adding border shadow..*/
+.neonBorder99 {
+  color: #ff33cc;
+  box-shadow:
+    0 0 7px #ff33cc,
+    0 0 10px #ff33cc,
+    0 0 21px #ff33cc,
+    0 0 42px #ff33cc,
+    0 0 82px #ff33cc,
+    0 0 92px #ff33cc,
+    0 0 102px #ff33cc,
+    0 0 151px #ff33cc;
+}
+
+.neonBorder999{
+	box-shadow: 0 0 70px #ff33cc;
+}
+
+/*Make each box lighing up:*/
+
+.boxLight {
+  color: #ff33cc;
+  box-shadow:
+    0 0 7px #ff33cc,
+    0 0 10px #ff33cc,
+    0 0 21px #ff33cc,
+    0 0 42px #ff33cc,
+    0 0 82px #ff33cc,
+    0 0 92px #ff33cc,
+    0 0 102px #ff33cc,
+    0 0 151px #ff33cc;
+}
+
+

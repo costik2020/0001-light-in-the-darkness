@@ -18,7 +18,7 @@ let matrix = document.querySelector(".matrix");
 let boxesArray = document.querySelectorAll(".box");
 console.log("box=",boxesArray);
 
-// Add the code that detexts when the mouse cursor is over
+// Add the code that detects when the mouse cursor is over
 // First I need to interate over all the boxes from `boxesArray`
 //box.addEventListener("mouseover", changeColor);
 //boxesArray[0].style.transition="backgroundColor 2s;"
@@ -35,7 +35,7 @@ for (let box of boxesArray){
 	box.addEventListener("mouseout", function(){
 		console.log("foo");
 		box.style.backgroundColor="black";
-		box.style.transition="backgroundColor 1.5s;"
+		//box.style.transition="backgroundColor 1.5s;"
 	});
 }
 
