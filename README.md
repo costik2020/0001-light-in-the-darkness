@@ -12,7 +12,7 @@ To create this light effect I used this core features:
 
 
 Here is a quick glance on how the project looks like:
-![light_in_the_darkness_finished_project.png](Attachments/light_in_the_darkness_finished_project.png)
+![light_in_the_darkness_finished_project.png](images/light_in_the_darkness_finished_project.png)
 
 
 
