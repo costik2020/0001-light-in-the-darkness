@@ -30,12 +30,16 @@ for (let box of boxesArray){
 	box.addEventListener("mouseover", function(){
 		console.log("box=",box);
 		box.style.backgroundColor="white";
+		// Adding neon light to each small box
+		box.classList.add('boxLight');
 	});
 
 	box.addEventListener("mouseout", function(){
 		console.log("foo");
 		box.style.backgroundColor="black";
 		//box.style.transition="backgroundColor 1.5s;"
+		// Remove the neon Light
+		box.classList.remove('boxLight');
 	});
 }
 
